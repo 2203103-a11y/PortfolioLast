@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Deploy'){
             steps{
-                bat 'xcopy .C:\\inetpub\\wwwroot\\/E/Y'
+                bat 'xcopy .C:\\inetpub\\wwwroot\\ /E/Y'
             }
         }
     }
